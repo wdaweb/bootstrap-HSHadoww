@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <!-- boootstrap-icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- swiper -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css' />
+    <!-- lightbox -->
+    <link rel="stylesheet" href="./css/magnific-popup.css">
+    <link rel="stylesheet" href="./css/magnific-popup-self.css">
+    <!-- self -->
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <div id="follow-ball" class="follow-ball"></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top opacity-75 ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" height="80px" alt=""></a>
+            <!-- data-bs-toggle="offcanvas" 觸發側邊欄的功能， data-bs-target="#kaifu" 觸發的目標-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#xuan">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start bg-light" id="xuan">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-black">Menu</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services+</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="navbar-button">
+                <a href="#">
+                    <i class="bi-telephone"></i>
+                    <span>&nbsp; +1 (234) 567 89 10&nbsp;</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- swipper 1-->
+    <div id="swiper" class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="https://picsum.photos/1920/1080/?random=1" class="d-block w-100">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://picsum.photos/1920/1080/?random=2" class="d-block w-100">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://picsum.photos/1920/1080/?random=3" class="d-block w-100">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://picsum.photos/1920/1080/?random=4" class="d-block w-100">
+            </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <!-- light box -->
+    <section id="cccard" class="text-center">
+        <div class="container h-100 d-flex">
+            <div class="row align-items-center">
+                <h1>What Have We Done?</h1>
+                <div class="col-sm-4 mt-3">
+                    <a class="image-popup-no-margins" href="https://picsum.photos/800/500/?random=1"
+                        data-lightbox="gallery" data-title="Card 1">
+                        <div class="card">
+                            <img src="https://picsum.photos/800/500/?random=1" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 mt-3">
+                    <a class="image-popup-no-margins" href="https://picsum.photos/800/500/?random=2"
+                        data-lightbox="gallery" data-title="Card 2">
+                        <div class="card">
+                            <img src="https://picsum.photos/800/500/?random=2" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4 mt-3 mb-3">
+                    <a class="image-popup-no-margins" href="https://picsum.photos/800/500/?random=3"
+                        data-lightbox="gallery" data-title="Card 3">
+                        <div class="card">
+                            <img src="https://picsum.photos/800/500/?random=3" class="card-img-top">
+                            <div class="card-body justify-content-center">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk
+                                    of the card's content.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section id="info" class="w-100 h-50 bg-dark">
+        <div class="container p-5 text-light">
+            <div class="row lh-sm">
+                <div class="col-6 col-lg-3">
+                    <img src="./images/logo-footer.png" height="50px">
+                </div>
+                <div class="col-6 col-lg-3 pt-5 pt-lg-0">
+                    <p class="fw-bolder">Address</p>
+                    <p>
+                        1234 Street Name
+                        <br>
+                        City,AA 99999
+                    </p>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <p class="fw-bolder">Links</p>
+                    <p>
+                        Website builder
+                        <br>
+                        Download for Windows
+                        <br>
+                        Download for Mac
+                    </p>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <p class="fw-bolder">Contacts</p>
+                    <p>
+                        Email:support@mobirise.com
+                        <br>
+                        Phone:+1 (0) 000 0000 001
+                        <br>
+                        Fax:+1 (0) 000 000 002
+                </div>
+                <div class="col-12 text-center">
+                    &copy;Copyright 2023 I-Ping Ho - All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- jQuery -->
+    <script src="./js/jquery-3.7.1.js"></script>
+    <!-- bootstrap -->
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.js'></script>
+    <!-- swipperjs -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- lightbox -->
+    <script src="./js/jquery.magnific-popup.js"></script>
+    <script src="./js/jquery.magnific-self.js"></script>
+    <!-- GSAP -->
+    <script src="./js/gsap/gsap.js"></script>
+    <script src="./js/gsap/ScrollTrigger.js"></script>
+    <script src="./js/gsap/ScrollToPlugin.js"></script>
+    <script src="./js/gsap/SplitText.min.js"></script>
+    <!-- self js -->
+    <script src="./js/all.js"></script>
+</body>
+
+</html>

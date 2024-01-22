@@ -1,0 +1,48 @@
+@import '_swiper/styles.scss' features;
+@media (min-width: 992px) {
+  #myCarousel,
+  #cccard,
+  #map,
+  #p,
+  #p2,
+  #map,
+  #form {
+    height: 100vh;
+  }
+}
+.follow-ball {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 3px solid white;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 100000;
+}
+
+.navbar-button {
+  width: 225px;
+  height: 70px;
+  background: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.navbar-button a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 575.98px) {
+  .navbar-button {
+    display: none;
+  }
+}

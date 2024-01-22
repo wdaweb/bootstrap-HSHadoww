@@ -1,0 +1,17 @@
+.navbar-button{
+    width: 225px;
+    height: 70px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        text-decoration:none;
+        color: white;
+    }
+}
+@media (max-width: 575.98px) {
+    .navbar-button {
+        display: none;
+    }
+}
